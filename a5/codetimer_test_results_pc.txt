@@ -1,0 +1,40 @@
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 40 3060000000
+Fib 40: 102334155
+start: 156752
+end:   157465
+elapsed milliseconds: 713
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 45 3060000000
+Fib 45: 1134903170
+start: 189332
+end:   197037
+elapsed milliseconds: 7705
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 50 3060000000
+Fib 50: 12586269025
+start: 204159
+end:   288875
+elapsed milliseconds: 84716
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 55 3060000000
+Fib 55: 139583862445
+start: 358109
+end:   1297046
+elapsed milliseconds: 938937
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ printf "`cat /proc/cpuinfo | grep -i mhz | cut -d: -f2 | head -1 | sed 's/^ *//'` * 1000000 /1\n" | bc
+3060000000
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 42 3060000000Fib 42: 267914296
+start: 2575560
+end:   2577372
+elapsed milliseconds: 1812
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 47 3060000000
+Fib 47: 2971215073
+start: 2583637
+end:   2603603
+elapsed milliseconds: 19966
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ printf "`cat /proc/cpuinfo | grep -i mhz | cut -d: -f2 | head -1 | sed 's/^ *//'` * 1000000 /1\n" | bc
+3060000000
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ ./codetimer 52 3060000000Fib 52: 32951280099
+start: 2633861
+end:   2855248
+elapsed milliseconds: 221387
+(py2) kevin@U:~/Dropbox/cs107_2017_2018_fall/a5$ 
+
+

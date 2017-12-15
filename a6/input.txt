@@ -1,0 +1,4 @@
+Never put off until run time what can be done at compile time.
+1470 -1
+19 lfurmity 2 he
+00400000 e5000000 e5800000 e5400000 e5600000 4 2 1

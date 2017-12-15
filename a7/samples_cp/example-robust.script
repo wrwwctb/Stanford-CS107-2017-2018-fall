@@ -1,0 +1,13 @@
+# This script contains a few edge cases that may
+# help you getting starting on thinking about how
+# to test the robustness of your allocator.
+
+# what does malloc(0) do? read man page!
+a 1 0
+a 2 100
+r 2 200
+r 2 5
+f 2
+f 1
+# next request simulates free(NULL)
+f 3
