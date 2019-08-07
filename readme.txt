@@ -1,1 +1,0 @@
-http://web.stanford.edu/class/cs107/
